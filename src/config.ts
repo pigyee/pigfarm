@@ -2,40 +2,39 @@
 
 export const SITE_FAVICON = "/favicon.png";
 export const SITE_LOGO = "/leo.png";
-export const SITE_TITLE = "LEO";
-export const SITE_URL = "https://astro-theme-leo.muji.dev";
+export const SITE_TITLE = "pig810";
+export const SITE_URL = "https://blog.nqh.us.kg";
 export const SITE_DESCRIPTION =
   `
-  This is a space where creativity meets logic. As a passionate frontend engineer and dreamer inspired by the vastness of space, Leo shares insights on cutting-edge web development, personal projects, and the exploration of new technologies. With a unique blend of technical expertise and a love for innovation, this blog is a journey into problem-solving, design, and the limitless possibilities of the digital universe.
+  pig810的博客
 `;
 export const ME_AVATAR = "/leo.png";
-export const LANGUAGES = ['en', 'zh'];
+export const LANGUAGES = ['zh'];
 
 export const MENUS = [
   {
-    title: "About Me",
+    title: "关于",
     link: "/me",
     target: "_self",
   },
   {
-    title: "Posts",
+    title: "帖子",
     link: "/en/posts",
     target: "_self",
   },
   {
     title: "Github",
-    link: "YOUR_GITHUB_URL",
+    link: "https://github.com/pigyee",
     target: "_blank",
     icon: "github",
   },
 ];
 
-export const FOOTER_CONTENT = "Mr.Leo. All rights reserved.";
+export const FOOTER_CONTENT = "由pig810运营";
 
 export const CONTACTS = {
-  linkedIn: "YOUR_LINKEDIN_URL",
-  github: "YOUR_GITHUB_URL",
-  email: "mailto:YOUR_EMAIL",
+  github: "https://github.com/pigyee",
+  email: "mailto:pig810@outlook.com",
 };
 
 export const SLOGAN = "To infinity and beyond!";
