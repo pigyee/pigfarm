@@ -18,7 +18,7 @@ export default defineConfig({
   },
   i18n: {
     locales: LANGUAGES,
-    defaultLocale: "en",
+    defaultLocale: "zh",
   },
   integrations: [
     mdx({
