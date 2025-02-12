@@ -1,11 +1,22 @@
+<hr/>
 <div id='tcomment'></div>
+<style>
+/* 深色模式颜色 */
+[data-theme=light] {
+  --liushen-border-color: #42444a;
+  --liushen-card-bg: #2c2c2c;
+  --liushen-card-border: #42444a;
+  --style-border-always: 1px solid var(--liushen-card-border);
+  --liushen-blue: #0084FF;
+}  
+</style>
 <script>
   document.addEventListener('astro:page-load', () => {
     function loadTwikoo() {
       const commentsContainer = document.getElementById('tcomment');
       if (commentsContainer) {
         const script = document.createElement('script');
-        script.src = 'https://cdn.staticfile.org/twikoo/1.6.32/twikoo.all.min.js';
+        script.src = 'https://cdn.staticfile.org/twikoo/1.6.32/twikoo.min.js';
         script.async = true;
         script.onload = () => {
           const initScript = document.createElement('script');
