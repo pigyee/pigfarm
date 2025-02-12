@@ -3,7 +3,6 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../config";
 import Footer from "./footer.astro";
 import Header from "./header.astro";
 import Meta from "./meta.astro";
-import Comment from './comment.astro';
 import StarBackground from "./react/StarBackground.tsx";
 
 import "@fontsource/poppins";
@@ -28,7 +27,6 @@ const { title, description, hideFooter } = Astro.props;
       <Header />
 
       <div class="flex-auto">
-        <Comment/>
         <slot />
       </div>
       {!hideFooter && <Footer />}
