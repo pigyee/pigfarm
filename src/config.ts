@@ -1,6 +1,6 @@
 
 
-export const SITE_FAVICON = "/favicon.png";
+export const SITE_FAVICON = "/favicon.ico";
 export const SITE_LOGO = "/leo.png";
 export const SITE_TITLE = "pig810";
 export const SITE_URL = "https://blog.nqh.us.kg";
