@@ -26,9 +26,8 @@ const { title, description, hideFooter } = Astro.props;
   <body class="relative bg-neutral-900">
     <div id="layout-container" class="z-10 flex flex-col h-full mb-8 overflow-y-scroll antialiased transparent">
       <Header />
-
+      <Comment/>
       <div class="flex-auto">
-        <Comment/>
         <slot />
       </div>
       {!hideFooter && <Footer />}
