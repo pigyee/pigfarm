@@ -27,11 +27,11 @@ const { title, description, hideFooter } = Astro.props;
     <div id="layout-container" class="z-10 flex flex-col h-full mb-8 overflow-y-scroll antialiased transparent">
       <Header />
       <div class="flex-auto">
-        <Comment/>
         <slot />
       </div>
       {!hideFooter && <Footer />}
     </div>
+    <Comment/>
 
     <StarBackground client:idle />
   </body>
