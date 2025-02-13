@@ -35,7 +35,7 @@ export const FOOTER_CONTENT = "由pig810运营";
 export const CONTACTS = {
   github: "https://github.com/pigyee",
   email: "mailto:pig810@outlook.com",
-  matrix: https://matrix.to/#/@pig810:chat.neboer.site"",
+  matrix: "https://matrix.to/#/@pig810:chat.neboer.site",
 };
 
 export const SLOGAN = "由pig810运营";
