@@ -1,6 +1,3 @@
-# Leo - Astro Theme With Tailwindcss & MDX
-
-
 个人网站，使用 [Tailwind](https://tailwindcss.com/), [React.js](https://react.dev/) 和 [Three.js](https://threejs.org/) 构建
 文章目录结构（使用MDX格式化文本）
 ```
@@ -17,6 +14,11 @@
 ...
 ```
 
+### 对于原项目的修改
+
+-添加了评论系统
+
+
 
 ### 主题配置
 
@@ -31,7 +33,7 @@
 - `MENUS`: 顶部菜单
 - `FOOTER_CONTENT`: 页脚
 
-
+### 使用的库
 - @astrojs/mdx: <https://docs.astro.build/en/guides/markdown-content/>
 - @astrojs/rss: <https://docs.astro.build/en/guides/rss/>
 - @astrojs/sitemap: <https://docs.astro.build/en/guides/integrations-guide/sitemap/>
