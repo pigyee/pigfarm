@@ -19,7 +19,7 @@ export const MENUS = [
   },
   {
     title: "帖子",
-    link: "/en/posts",
+    link: "/zh/posts",
     target: "_self",
   },
   {
@@ -38,18 +38,20 @@ export const CONTACTS = {
   matrix: "https://matrix.to/#/@pig810:chat.neboer.site",
 };
 
-export const SLOGAN = "由pig810运营";
+export const SLOGAN = "猪圈";
 export const ME_DESCRIPTION =
   `我是pig810，初中生，热爱科技。喜欢折腾电子垃圾，写网页，是个半吊子前端。梦想发明有用的小科技，爱看科幻电影。`;
 
 export const PROJECTS = [
     {
-      id: "我的网站",
-      title: "我的网站",
-      description: "",
+      id: "联系方式",
+      title: "",
+      description: "联系方式",
       image: '',
       externalLink: "https://blog.nqh.us.kg",
       details: [
+        "邮箱：pig810@outlook.com"
+        "Matrixid：@pig810:chat.neboer.site"
       ],
     },
   ];
