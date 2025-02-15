@@ -30,37 +30,6 @@ export const MENUS = [
   },
 ];
 
-export const WORK_EXPERIENCE = [
-  {
-    company: "Galactic Ventures",
-    position: "Innovation Explorer",
-    startDate: "2022",
-    endDate: "2024",
-  },
-  
-  {
-    company: "Interstellar Academy Program",
-    position: "Astro Trainee",
-    startDate: "2023",
-    endDate: "2023",
-  },
-  
-  {
-    company: "LunarTech Solutions",
-    position: "Creative Logic Engineer",
-    startDate: "2020",
-    endDate: "2022",
-  },
-  
-  {
-    company: "Cosmic Coders Inc.",
-    position: "Frontend Navigator",
-    startDate: "2018",
-    endDate: "2020",
-  },
-  
-];
-
 export const FOOTER_CONTENT = "由pig810运营";
 
 export const CONTACTS = {
