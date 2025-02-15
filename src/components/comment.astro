@@ -1,7 +1,7 @@
 
 <hr/>
 <p>评论</p>
-  <div class="color:#FFFFFF" id='tcomment'></div>
+  <div id='tcomment'></div>
 <script>
   document.addEventListener('astro:page-load', () => {
     function loadTwikoo() {
@@ -16,6 +16,7 @@
             twikoo.init({
                 envId: 'https://pig810-twikooo.hf.space',
                 el: '#tcomment',
+                dark: 'true',
             });
         `;
           document.body.appendChild(initScript);
