@@ -8,7 +8,6 @@ export const SITE_DESCRIPTION =
   `
   pig810的博客
 `;
-export const TWIKOO_ENV = "https://pig810-twikooo.hf.space/";
 export const ME_AVATAR = "/leo.png";
 export const LANGUAGES = ['zh'];
 
