@@ -78,7 +78,7 @@ export const PROJECTS = [
       id: "联系方式",
       title: "",
       description: "联系方式",
-      image: '',
+      image: '/leo.png',
       externalLink: "https://blog.nqh.us.kg",
       details: [
         "邮箱：pig810@outlook.com",
