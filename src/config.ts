@@ -50,8 +50,8 @@ export const PROJECTS = [
       image: '',
       externalLink: "https://blog.nqh.us.kg",
       details: [
-        "邮箱：pig810@outlook.com"
-        "Matrixid：@pig810:chat.neboer.site"
+        "邮箱：pig810@outlook.com",
+        "Matrixid：@pig810:chat.neboer.site",
       ],
     },
   ];
