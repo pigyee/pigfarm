@@ -1,4 +1,9 @@
-
+<style>
+  :root {  
+           --twikoo-text-color: #ffffff; /* 文字颜色 */
+           --twikoo-btn-text-color: #ffffff; /* 按钮文字颜色 */
+        }
+</style>
 <hr/>
 <p>评论</p>
   <div id='tcomment'></div>
@@ -16,7 +21,6 @@
             twikoo.init({
                 envId: 'https://pig810-twikooo.hf.space',
                 el: '#tcomment',
-                dark: true
             });
         `;
           document.body.appendChild(initScript);
