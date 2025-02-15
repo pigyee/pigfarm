@@ -72,10 +72,6 @@
   /* 变动动画时长 */
   transition: .3s;
 }
-:root {
-  --twikoo-text-color: #ffffff !important;/* 文字颜色 */
-  --twikoo-btn-text-color: #ffffff !important;/* 按钮文字颜色 */
-}
 
 /* 设备信息 */
 .twikoo .tk-extra {
@@ -96,10 +92,27 @@
     border-radius: 12px !important;
 }
 
-.el-input-group__prepend .tk-nick .tk-submit-action-icon
-  {
-    color: white !important;
-  }
+/* Twikoo 深色模式样式 */
+
+.tk-comments {
+    background-color: #1e1e1e; /* 背景颜色 */
+    color: #ffffff; /* 文字颜色 */
+}
+
+.tk-comments a {
+    color: #4fc3f7; /* 链接颜色 */
+}
+
+.tk-comments input,
+.tk-comments textarea {
+    background-color: #2e2e2e; /* 输入框背景 */
+    color: #ffffff; /* 输入框文字颜色 */
+    border: 1px solid #444; /* 输入框边框颜色 */
+}
+
+.tk-comments .tk-footer {
+    border-top: 1px solid #444; /* 底部边框颜色 */
+}
 /* ========================twikoo美化====================== */
 
 </style>
