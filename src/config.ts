@@ -76,7 +76,7 @@ export const ME_DESCRIPTION =
 export const PROJECTS = [
     {
       id: "联系方式",
-      title: "",
+      title: "联系方式",
       description: "联系方式",
       image: '/leo.png',
       externalLink: "https://blog.nqh.us.kg",
