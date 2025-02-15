@@ -128,7 +128,7 @@ import { TWIKOO_ENV } from "../config";
           const initScript = document.createElement('script');
           initScript.innerHTML = `
             twikoo.init({
-                envId: '{TWIKOO_ENV}',
+                envId: {TWIKOO_ENV},
                 el: '#tcomment',
             });
         `;
