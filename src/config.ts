@@ -23,6 +23,11 @@ export const MENUS = [
     target: "_self",
   },
   {
+    title: "答案",
+    link: "/key",
+    target: "_self",
+  },
+  {
     title: "Github",
     link: "https://github.com/pigyee",
     target: "_blank",
