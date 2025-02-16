@@ -6,6 +6,6 @@ const imgSource = typeof props.src === "object" ? props.src : props;
 ---
 
 <div {...props} class="flex flex-col gap-2 text-center">
-  <img class="w-full rounded-lg overflow-clip" src={imgSource.src ? `${imgSource.src}` : ""} alt={props.alt ?? ""} />
+  <img class="w-full rounded-lg overflow-clip" height="50%" width="auto" src={imgSource.src ? `${imgSource.src}` : ""} alt={props.alt ?? ""} />
   <span class="text-gray-400 font-normal text-sm">{props.alt}</span>
 </div>
