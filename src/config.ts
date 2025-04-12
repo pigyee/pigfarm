@@ -3,7 +3,7 @@
 export const SITE_FAVICON = "/favicon.ico";
 export const SITE_LOGO = "/leo.png";
 export const SITE_TITLE = "pig810";
-export const SITE_URL = "https://blog.nqh.us.kg";
+export const SITE_URL = "https://nqh.dpdns.org";
 export const SITE_DESCRIPTION =
   `
   pig810的博客
