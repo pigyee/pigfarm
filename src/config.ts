@@ -53,7 +53,7 @@ export const PROJECTS = [
       title: "联系方式",
       description: "联系方式",
       image: '/leo.png',
-      externalLink: "https://blog.nqh.us.kg",
+      externalLink: "https://nqh.dpdns.org",
       details: [
         "邮箱：pig810@outlook.com",
         "Matrixid：@pig810:chat.neboer.site",
