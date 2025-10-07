@@ -1,7 +1,7 @@
 (function () {
 
     // 参数设置
-    const imgSrc = './assets/murasame.png';   // 理论上也可以换成其他角色就是了
+    const imgSrc = '/public/murasame.png';   // 理论上也可以换成其他角色就是了
     const cssAnimtaion = true;                // 启用额外动画(如果卡顿则关闭)
     const imgScale = 0.5;                     // 图像缩放
     const maxSpeed = 720;                     // 最大移动速度(正常)
